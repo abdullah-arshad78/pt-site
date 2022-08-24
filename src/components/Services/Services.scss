@@ -70,6 +70,7 @@
     }
     @media only screen and (max-width: 21.875em) {
       padding: 0 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     }
     @media only screen and (max-width: 20em) {
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
