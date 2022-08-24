@@ -1,0 +1,64 @@
+.form-success-modal {
+  background: #eaeaea;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  padding: 5rem 7rem;
+  border-radius: 0.6rem;
+  border: 3px solid #5fd068;
+  width: 60vw;
+  text-align: center;
+  @media only screen and (max-width: 87.5em) {
+    padding: 3rem;
+  }
+  @media only screen and (max-width: 56.25em) {
+    width: 70vw;
+    padding: 2rem;
+  }
+  @media only screen and (max-width: 48.75em) {
+    width: 90vw;
+  }
+  @media only screen and (max-width: 25em) {
+    width: 95vw;
+    padding: 3rem 2rem;
+  }
+
+  h2 {
+    background: linear-gradient(to right, #1b8b28, #5fd068);
+    color: transparent;
+    background-clip: text;
+    font-size: 3.6rem;
+    @media only screen and (max-width: 23.125em) {
+      font-size: 3rem;
+    }
+    @media only screen and (max-width: 19.7em) {
+      font-size: 2.8rem;
+    }
+  }
+
+  p {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    color: #384e51;
+    @media only screen and (max-width: 56.25em) {
+      font-size: 1.9rem;
+    }
+  }
+  button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    border: none;
+    background: #eaeaea;
+    color: #384e51;
+    cursor: pointer;
+    &:hover {
+      color: #5fd068;
+    }
+  }
+}

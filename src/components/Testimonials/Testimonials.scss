@@ -1,0 +1,24 @@
+.testimonials {
+  width: 100vw;
+  padding: 7rem 10rem 5rem;
+  background-image: linear-gradient(165deg, rgba(#1b2430, 1), rgba(#4f80cf, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 62.5em) {
+    padding: 7rem 6rem 5rem;
+  }
+  &__heading {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  &__carousel {
+    width: 85vw;
+    margin-top: 4rem;
+    // @media only screen and (max-width: 62.5em) {
+    //   width: calc(100vw - 15rem);
+    // }
+  }
+}

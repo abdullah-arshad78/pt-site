@@ -1,0 +1,80 @@
+.services {
+  width: 100vw;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(#1b2430, 1),
+    rgba(#4f80cf, 1)
+  );
+  color: #fff;
+
+  padding: 10rem 5rem;
+  position: relative;
+  @media only screen and (max-width: 56.25em) {
+    padding: 10rem 8rem;
+  }
+  @media only screen and (max-width: 30em) {
+    padding: 8rem 3rem;
+  }
+
+  &__intro {
+    &--heading {
+      font-size: 3rem;
+      @media only screen and (max-width: 56.25em) {
+        text-align: center;
+        font-size: 4rem;
+      }
+    }
+    &--para {
+      display: block;
+      margin-top: 2rem;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      width: 45vw;
+      line-break: strict;
+      @media only screen and (max-width: 56.25em) {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+      }
+    }
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-gap: 6rem;
+    @media only screen and (max-width: 56.25em) {
+      grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+      grid-gap: 10rem;
+    }
+    @media only screen and (max-width: 53.2em) {
+      grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+      padding: 0 5rem;
+    }
+    @media only screen and (max-width: 53.125em) {
+      padding: 0 15rem;
+    }
+    @media only screen and (max-width: 46.875em) {
+      padding: 0 10rem;
+    }
+    @media only screen and (max-width: 40.625em) {
+      padding: 0 6rem;
+    }
+    @media only screen and (max-width: 31.25em) {
+      padding: 0 4rem;
+    }
+    @media only screen and (max-width: 25em) {
+      padding: 0 2rem;
+    }
+    @media only screen and (max-width: 21.875em) {
+      padding: 0 1rem;
+    }
+    @media only screen and (max-width: 20em) {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+
+    // color: #3b3f3d;
+  }
+}

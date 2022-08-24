@@ -1,0 +1,95 @@
+.home {
+  width: 100vw;
+  color: #fff;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.3),
+      rgba(#092331, 0.8)
+    ),
+    url("../../assets/Jack-1-lg.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20rem 10rem;
+  justify-content: start;
+  @media only screen and (max-width: 56.25em) {
+    align-items: center;
+  }
+  @media only screen and (max-width: 40.625em) {
+    padding: 20rem 5rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 40vw;
+    @media only screen and (max-width: 56.25em) {
+      margin-left: 0;
+    }
+    @media only screen and (max-width: 40.625em) {
+      font-size: 5rem;
+    }
+    @media only screen and (max-width: 22.5em) {
+      font-size: 4rem;
+    }
+  }
+  p {
+    font-size: 5rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 40vw;
+    @media only screen and (max-width: 56.25em) {
+      margin-left: 0;
+    }
+    @media only screen and (max-width: 40.625em) {
+      font-size: 4rem;
+    }
+    @media only screen and (max-width: 22.5em) {
+      font-size: 3rem;
+    }
+  }
+  span {
+    font-weight: 900;
+    color: #3ab4f2;
+  }
+  small {
+    display: inline-block;
+    font-size: 3.5rem;
+    margin-left: 40vw;
+    @media only screen and (max-width: 56.25em) {
+      margin-left: 0;
+    }
+    @media only screen and (max-width: 40.625em) {
+      font-size: 2.8rem;
+    }
+    @media only screen and (max-width: 22.5em) {
+      font-size: 2rem;
+    }
+  }
+  h1,
+  p,
+  span,
+  small {
+    animation: moveInLeft 0.5s ease-in;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    transform: translateX(8rem);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
