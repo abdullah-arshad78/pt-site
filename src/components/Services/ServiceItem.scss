@@ -9,8 +9,11 @@
   @media only screen and (max-width: 46.875em) {
     grid-template-rows: 40rem;
   }
-  @media only screen and (max-width: 21.875em) {
-    grid-template-rows: 30rem;
+  @media only screen and (max-width: 26.25em) {
+    grid-template-rows: 35rem;
+  }
+  @media only screen and (max-width: 31.25em) {
+    grid-template-rows: 45rem;
   }
   img {
     width: 100%;
@@ -36,7 +39,10 @@
     padding: 0.5rem;
     transform: translateY(50%);
     @media only screen and (max-width: 56.25em) {
-      font-size: 2rem;
+      font-size: 2.5rem;
+    }
+    @media only screen and (max-width: 31.25em) {
+      font-size: 4rem;
     }
   }
   p {
@@ -51,8 +57,9 @@
       font-size: 2rem;
       padding: 2.2rem;
     }
-    @media only screen and (max-width: 23.75em) {
-      font-size: 1.7rem;
+    @media only screen and (max-width: 31.25em) {
+      font-size: 2.2rem;
+      margin-top: 3.5rem;
     }
   }
   button {

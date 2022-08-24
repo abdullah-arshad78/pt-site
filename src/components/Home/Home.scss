@@ -14,7 +14,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 20rem 10rem;
+  padding: 15rem 10rem 20rem;
   justify-content: flex-start;
   @media only screen and (max-width: 56.25em) {
     align-items: center;
@@ -30,7 +30,7 @@
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
     display: inline-block;
     margin-left: 40vw;
@@ -40,23 +40,18 @@
     @media only screen and (max-width: 40.625em) {
       font-size: 5rem;
     }
-    @media only screen and (max-width: 23.75em) {
-      font-size: 3rem;
-    }
   }
   p {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     display: inline-block;
     margin-left: 40vw;
     @media only screen and (max-width: 56.25em) {
       margin-left: 0;
     }
-    @media only screen and (max-width: 40.625em) {
-      font-size: 4rem;
-    }
+
     @media only screen and (max-width: 23.75em) {
-      font-size: 2rem;
+      font-size: 4rem;
     }
   }
   span {
@@ -65,16 +60,14 @@
   }
   small {
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     margin-left: 40vw;
     @media only screen and (max-width: 56.25em) {
       margin-left: 0;
     }
-    @media only screen and (max-width: 40.625em) {
-      font-size: 2.8rem;
-    }
+
     @media only screen and (max-width: 23.75em) {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
   }
   h1,
